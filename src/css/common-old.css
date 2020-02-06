@@ -1,0 +1,1144 @@
+@charset "shift_jis";
+
+/* INFORMATION ============================
+
+Author
+	Arrows Systems
+
+=========================================*/
+
+.xs {font-size:83%;line-height:140%;}
+.s {font-size:91%;line-height:130%;}
+.l {font-size:116%;line-height:150%;letter-spacing:1px;}
+.bold {font-weight:bold;}
+.ex { color:#CC3300;}
+.exbold { color:#CC3300; font-weight:bold;}
+
+.colorBrown{ color:#663622;}
+.colorRed{ color:#CC0000;}
+.colorOrange{ color:#f45c00;}
+.colorlb{color:#766958;}
+
+.alignLeft{ text-align:left;}
+.alignRight{ text-align:right;}
+.alignCenter{ text-align:center;}
+.mb_s{ margin-bottom:5px;}
+.mb_m{ margin-bottom:10px;}
+.mb_l{ margin-bottom:15px;}
+.mr_s{ margin-right:5px;}
+.mr_m{ margin-right:10px;}
+.mr_l{ margin-right:15px;}
+.ml_s{ margin-left:5px;}
+.ml_m{ margin-left:10px;}
+.ml_l{ margin-left:15px;}
+.mt_s{ margin-top:5px;}
+.mt_m{ margin-top:10px;}
+.mt_l{ margin-top:15px;}
+.vm{ vertical-align:middle}
+.f_left{ float:left;}
+.f_right{ float:right;}
+
+.pad_tb{padding-top:5px; padding-bottom:5px;}
+.pad_t{padding-top:5px;}
+.pad_b{padding-bottom:5px;}
+.pad_r{padding-left:5px;}
+.pad_lr{padding-left:5px; padding-right:5px;}
+
+.bd_all{ border:1px #ccc solid;}
+.bd_t{ border-top:1px #ccc solid;}
+.bd_tb{ border-top:1px #ccc solid;  border-bottom:1px #ccc solid;}
+.bd_r{ border-right:1px #ccc solid;}
+.bd_bdot{ border-bottom:1px #C9C1A4 dotted;}
+.bd_tbdot{ border-top:1px #C9C1A4 dotted; border-bottom:1px #C9C1A4 dotted;}
+
+.priceoff{
+background:#DE5B30;
+padding:2px 3px;
+color:#fff;
+font-weight:bold;
+}
+/* INS 2014/12/09 メルマート統合(注文画面等)追加 sato START */
+.rackgroup{
+background:#FF0000;
+padding:2px 3px;
+color:#fff;
+font-weight:bold;
+text-align: center;
+}
+/* INS 2014/12/09 メルマート統合(注文画面等)追加 sato END */
+.nw{white-space: nowrap;}
+
+.exclamation a{
+	float:none;
+	margin:0px;
+	padding:0px 0px 0 17px;
+	background:url(../image/icon_exclamation.gif) left center no-repeat;
+}
+
+/* INS 2017/10/24 C1Sパンチアウト マージ時対応 ishida START */
+.agreeCheckbox{vertical-align:-0.2em;width:17px;height:17px;}
+/* INS 2017/10/24 C1Sパンチアウト マージ時対応 ishida END */
+
+/* mainContents
+=========================================*/
+
+/* h */
+#contentsBox h2{
+color:#fff;
+font-weight:bold;
+font-size:120%;
+padding:10px 10px 0 15px;
+background:	url(../image/bg_h201.gif) no-repeat;
+min-height:25px;
+_height:25px;
+margin-bottom:15px;
+}
+
+#contentsBox h2.img{
+color:#fff;
+font-weight:bold;
+font-size:100%;
+padding:0;
+background:none;
+min-height:22px;
+_height:22px;
+margin-bottom:10px;
+}
+
+#contentsBox h3{
+color:#9F3E0E;
+font-weight:bold;
+font-size:120%;
+padding:10px;
+border-left:7px #DE5B30 solid;
+margin-bottom:10px;
+background:	url(../image/dot_linedotted.gif) left bottom repeat-x;
+}
+
+#contentsBox h3.img{
+color:#fff;
+font-weight:bold;
+font-size:100%;
+padding:0;
+background:none;
+border:none;
+margin-bottom:15px;
+}
+
+#contentsBox h3.ct{
+color:#DE5B30;
+font-weight:bold;
+font-size:110%;
+padding:0;
+background:none;
+border:none;
+margin-bottom:10px;
+}
+
+#contentsBox h3.nobg{
+background:none;
+}
+
+
+#contentsBox .pank{
+margin-bottom:8px;
+}
+
+#contentsBox .gotop{
+text-align:right;
+padding:3px 5px;
+clear:both;
+}
+
+
+/* mainContentscommon
+================================*/
+
+/*alertbox*/
+#contentsBox .alertbox{padding:20px; background:#FFF3E7;}
+
+/*in progress*/
+#contentsBox .progmsg{padding:15px; background:#FFF3E7;}
+
+/*comonparts*/
+#contentsBox .ind{
+background:#FA8B41;
+padding:2px 3px;
+margin-right:10px;
+margin-left:10px;
+color:#fff;
+font-size:80%;
+}
+
+#contentsBox .ann{ color:#aaa; font-size:91%; margin-top:3px;}
+#contentsBox .ann02{color:#766958; font-size:91%;}
+#contentsBox .error{background:#F5CBE8;}
+
+
+#contentsBox .btnlinebox{ border-top:1px #C9C1A4 dotted; padding:10px 5px 5px 5px; text-align:center;}
+#contentsBox .totallinebox{ border-top:1px #C9C1A4 dotted; padding:10px 5px 5px 5px; text-align:left;}
+#contentsBox .totallinebox02{ border-top:1px #C9C1A4 dotted; padding:5px 0 0 0; text-align:left;}
+
+/*postal*/
+#contentsBox .postal{ margin-left:10px;  vertical-align:middle;}
+
+/* paragraph */
+#contentsBox .paragraphBox01{margin-bottom:15px;}
+#contentsBox .paragraphBox02{margin-bottom:30px;}
+#contentsBox .paragraphBox03{margin-bottom:20px; margin-left:10px;}
+#contentsBox .paragraphBox01Line{margin:0 10px 30px 10px; border-bottom:1px dotted #999; padding-bottom:10px;}
+
+#contentsBox .otherssight{
+background:url(../image/icon_othersite.gif) right 50% no-repeat;
+padding:0 48px 0 0;
+margin:0;
+
+}
+
+/*ie6-ie7*/
+* html #contentsBox .otherssight a{zoom:1;}
+*:first-child+html #contentsBox .otherssight a{zoom:1;}
+
+
+/* style */
+#contentsBox .attxt{ margin-bottom:20px; background:#EFEFEF; padding:15px;}
+#contentsBox .cap{ margin-bottom:5px;}
+
+
+/* btn */
+#contentsBox .btnarea { background:#F9F8F4; padding:20px 10px; margin-top:17px;}
+#contentsBox .btnareaBox{ position: relative; overflow: hidden;}
+#contentsBox .btnareaBox ul { position:relative; left:50%; float:left;}
+#contentsBox .btnareaBox ul li { position:relative; left:-50%; float:left; margin-right:20px;}
+#contentsBox .btnareaBox ul li.lastChild { margin-right:0px;}
+
+#contentsBox .btn01{ background:url(../image/bg_btnbg02.gif) left 50% repeat-x; border:1px #ccc solid; text-align:center;}
+#contentsBox .btn01 a,
+#contentsBox .btn01 a:visited,
+#contentsBox .btn01 a:active{ color:#776957; font-size:80%; padding:2px 15px; display:block; text-decoration:none;}
+#contentsBox .btn01 a:hover{ color:#A39481;}
+
+#contentsBox .btn02{ background:url(../image/bg_btnbg02.gif) left 50% repeat-x; border:1px #ccc solid; text-align:center;}
+#contentsBox .btn02 a,
+#contentsBox .btn02 a:visited,
+#contentsBox .btn02 a:active{ color:#776957; padding:2px 15px; display:block; text-decoration:none;}
+#contentsBox .btn02 a:hover{ color:#A39481;}
+
+#contentsBox .btn03{ background:#CDCDCD url(../image/bg_btnbg02.gif) left 50% repeat-x; border:1px #ccc solid; text-align:center;}
+#contentsBox .btn03 a,
+#contentsBox .btn03 a:visited,
+#contentsBox .btn03 a:active{ color:#776957; padding:5px 10px; display:block; text-decoration:none; min-width:120px; _width:120px;}
+#contentsBox .btn03 a:hover{ color:#A39481;}
+
+#contentsBox .btn04{ background:#CDCDCD url(../image/bg_btnbg03.gif) left 50% repeat-x; border:1px #ccc solid; text-align:center; font-weight:bold;}
+#contentsBox .btn04 a,
+#contentsBox .btn04 a:visited,
+#contentsBox .btn04 a:active{ color:#fff; padding:5px 10px; display:block; text-decoration:none; min-width:120px; _width:120px;}
+#contentsBox .btn04 a:hover{ color:#fff2e6;}
+
+#contentsBox .btn05{ background:url(../image/bg_btnbg02.gif) left 50% repeat-x; border:1px #ccc solid; text-align:left;}
+#contentsBox .btn05 a,
+#contentsBox .btn05 a:visited,
+#contentsBox .btn05 a:active{background:url(../image/arrow02.gif) 6px 50% no-repeat;  color:#776957; padding:2px 15px 2px 20px; display:block; text-decoration:none;}
+#contentsBox .btn05 a:hover{ color:#A39481;}
+
+#contentsBox .btn06{ background:url(../image/bg_btnbg02.gif) left 50% repeat-x; border:1px #ccc solid; text-align:left;}
+#contentsBox .btn06 a,
+#contentsBox .btn06 a:visited,
+#contentsBox .btn06 a:active{background:url(../image/arrow03.gif) 6px 50% no-repeat;  color:#776957; padding:2px 15px 2px 20px; display:block; text-decoration:none;}
+#contentsBox .btn06 a:hover{ color:#A39481;}
+
+/* INS 2012/08/08 要望対応１ ishida START */
+#contentsBox .btn07{ background:url(../image/bg_btnbg02.gif) left 50% repeat-x; border:1px #ccc solid; text-align:center;font-weight: bold;}
+#contentsBox .btn07 a,
+#contentsBox .btn07 a:visited,
+#contentsBox .btn07 a:active{background:url(../image/arrow02.gif) 70px 50% no-repeat;  color:#776957; padding:10px 15px 10px 20px; display:block; text-decoration:none;}
+#contentsBox .btn07 a:hover{ color:#A39481;}
+
+#contentsBox .btn08{ background:url(../image/bg_btnbg02.gif) left 50% repeat-x; border:1px #ccc solid;border-left: 3px #F86707 solid; text-align:left;font-weight: bold;}
+#contentsBox .btn08 a,
+#contentsBox .btn08 a:visited,
+#contentsBox .btn08 a:active{background:url(../image/arrow02.gif) 6px 50% no-repeat;  color:#A24100; padding:3px 15px 3px 20px; display:block; text-decoration:none;}
+#contentsBox .btn08 a:hover{ color:#E85C00;}
+/* INS 2012/08/08 要望対応１ ishida END */
+
+
+/* INS 2016/03/29 否認・仮保存対応 oda START */
+#contentsBox .btn09 { background:url(../image/bg_btnbg04.gif) left 50% repeat-x; border:1px #ccc solid; text-align:center;}
+#contentsBox .btn09 a,
+#contentsBox .btn09 a:visited,
+#contentsBox .btn09 a:active{ color:#FFFFFD; padding:2px 15px; display:block; text-decoration:none;}
+#contentsBox .btn09 a:hover{ color:#fff2e6;}
+
+#contentsBox .btn10 { background:url(../image/bg_btnbg02.gif) left 50% repeat-x; border:1px #ccc solid; text-align:center;}
+#contentsBox .btn10 a,
+#contentsBox .btn10 a:visited,
+#contentsBox .btn10 a:active{ color:#776957; padding:0px 0px; display:block; text-decoration:none;white-space: nowrap;}
+#contentsBox .btn10 a:hover{ color:#A39481;}
+/* INS 2016/03/29 否認・仮保存対応 oda END */
+
+
+#contentsBox ul.oplinks li{
+padding:0 0 0 15px;
+background:url(../image/arrow02.gif) left center no-repeat;
+margin-bottom:10px;
+}
+
+
+/* table */
+
+/*t01*/
+
+#contentsBox table.t01{
+border-collapse:collapse;
+margin-bottom:10px;
+border-spacing:0;
+}
+
+#contentsBox table.t01 th{
+border:1px #ccc solid;
+background:#776957;
+padding:5px;
+color:#fff;
+text-align:center;
+}
+
+#contentsBox table.t01 td{
+border:1px #ccc solid;
+padding:5px;
+}
+
+/*
+#contentsBox table.t01 th.subtitle{
+background:#F1EDE7;
+color:#663622;
+text-align:left;
+font-weight:normal;
+}
+*/
+
+
+#contentsBox table.t01 th.subd{
+border:1px #ccc solid;
+background:#F1EDE7;
+padding:5px;
+text-align:center;
+color:#663622;
+}
+
+#contentsBox table.t01 td.subct{padding:0px;}
+#contentsBox table.t01 td.bgcolor01{background:#F1EDE7;}
+#contentsBox table.t01 td.aright{text-align:right;}
+#contentsBox table.t01 td.total{text-align:right; font-weight:bold;}
+#contentsBox table.t01 td.amount{text-align:center;}
+#contentsBox table.t01 td.cbox{text-align:center; padding:1px;}
+
+#contentsBox table.t01 img.sort{margin-left:5px;}
+#contentsBox table.t01 .name{margin-bottom:8px; font-weight:bold;}
+#contentsBox table.t01 .kazu{text-align:right;}
+#contentsBox table.t01 .ikkatuinfo{
+text-align:right;
+margin-right:5px;
+margin-top:3px;
+font-size:90%;
+}
+#contentsBox table.t01 .price{text-align:right;
+font-weight:bold;
+color:#993300;
+margin-bottom:10px;
+}
+
+#contentsBox table.t01 .favoritebtn{
+padding:5px;
+text-align:right;
+background:#F1EDE7;
+}
+
+
+#contentsBox ul.eco li{float:left; margin-right:4px; margin-bottom:5px;}
+#contentsBox table.t01 dl{width:265px;}
+#contentsBox table.t01 dt{float:left; margin-right:5px; width:90px;}
+#contentsBox table.t01 dd{float:left; width:170px;}
+
+
+/*intable*/
+#contentsBox table.t01 table.intable01 {
+border-collapse:collapse;
+margin-bottom:0;
+border-spacing:0;
+}
+
+#contentsBox table.t01 table.intable01 th{
+border:none;
+color:#663622;
+text-align:left;
+font-weight:normal;
+background:none;
+}
+
+#contentsBox table.t01 table.intable01 td{
+border:none;
+background:none;
+}
+
+
+
+#contentsBox table.t01 table.intable02 {
+border-collapse:collapse;
+margin-bottom:0;
+border-spacing:0;
+}
+
+#contentsBox table.t01 table.intable02 th{
+border:none;
+color:#663622;
+background:#F9F8F4;
+text-align:left;
+font-weight:normal;
+border-bottom:1px #F1EDE7 solid;
+}
+
+#contentsBox table.t01 table.intable02 td{
+border:none;
+background:none;
+border-bottom:1px #F1EDE7 solid;
+}
+
+
+
+#contentsBox table.t01 table.intable02 th.lastChild{
+border:none;
+color:#663622;
+background:#F9F8F4;
+text-align:left;
+font-weight:normal;
+border-bottom:1px #F1EDE7 solid;
+}
+
+#contentsBox table.t01 table.intable02 td.lastChild{
+border:none;
+background:none;
+border-bottom:1px #F1EDE7 solid;
+}
+
+
+/*intable*/
+#contentsBox table.t01 table.intable03 {
+border-collapse:collapse;
+margin-bottom:0;
+border-spacing:0;
+}
+
+
+#contentsBox table.t01 table.intable03 td{
+border:none;
+background:none;
+padding:0;
+}
+
+
+/*t02*/
+#contentsBox table.t02{
+border-collapse:collapse;
+margin-bottom:10px;
+border-spacing:0;
+
+}
+
+#contentsBox table.t02 th{
+border:1px #ccc solid;
+background:#F1EDE7;
+color:#663622;
+text-align:left;
+font-weight:normal;
+padding:5px 10px;
+border-collapse:collapse;
+vertical-align:top;
+}
+
+#contentsBox table.t02 th.mainct{
+border:1px #ccc solid;
+background:#776957;
+padding:5px;
+color:#fff;
+text-align:left;
+border-collapse:collapse;
+font-weight:bold;
+}
+
+
+#contentsBox table.t02 td{
+border:1px #ccc solid;
+padding:5px;
+border-collapse:collapse;
+}
+
+#contentsBox table.t02 td.nb{
+border:none;
+padding:10px;
+}
+
+#contentsBox table.t02 td.cmbox{
+padding:10px;
+}
+
+#contentsBox table.t02 td.approve{
+border:1px #ccc solid;
+padding:5px;
+border-collapse:collapse;
+color:#46A3FF;
+font-weight:bold;
+font-size:13px;
+}
+
+
+/*t03*/
+#contentsBox table.t03{
+border:1px #ccc solid;
+border-collapse:collapse;
+margin-bottom:5px;
+border-spacing:0;
+}
+
+#contentsBox table.t03 th{
+border-bottom:1px #ccc solid;
+background:#F9F8F4;
+color:#663622;
+text-align:left;
+font-weight:normal;
+padding:5px;
+border-collapse:collapse;
+vertical-align:top;
+}
+
+#contentsBox table.t03 th.total{vertical-align:middle;}
+
+#contentsBox table.t03 td{
+border-right:1px #ccc solid;
+border-bottom:1px #ccc solid;
+padding:5px;
+border-collapse:collapse;
+vertical-align:top;
+}
+
+#contentsBox table.t03 td.total{vertical-align:middle; font-weight:bold; text-align:right;}
+
+#contentsBox table.t03 td.st{background:#F1EDE7; vertical-align:middle;}
+
+#contentsBox table.t03 .aright{text-align:right;}
+#contentsBox table.t03 .btn{text-align:center;}
+#contentsBox table.t03 .title{
+font-weight:bold;
+color:#663622;
+margin-right:10px;
+}
+
+
+
+/*t04*/
+#contentsBox table.t04{
+border:1px #ccc solid;
+border-collapse:collapse;
+margin-bottom:5px;
+border-spacing:0;
+}
+
+#contentsBox table.t04 th{
+border-bottom:1px #ccc solid;
+background:#C2B4A7;
+padding:5px;
+color:#fff;
+text-align:left;
+font-weight:bold;
+border-collapse:collapse;
+}
+
+
+#contentsBox table.t04 td{
+border-right:1px #ccc solid;
+border-bottom:1px #ccc solid;
+padding:5px;
+border-collapse:collapse;
+background:#F1EDE7;
+}
+
+#contentsBox table.t04 .btn{text-align:center;}
+#contentsBox table.t04 .title{
+font-weight:bold;
+color:#663622;
+margin-right:10px;
+}
+
+
+
+/*t05*/
+#contentsBox table.t05{
+border:1px #fff solid;
+border-collapse:collapse;
+margin-bottom:10px;
+border-spacing:0;
+
+}
+
+#contentsBox table.t05 th{
+border:1px #fff solid;
+background:#F1EDE7;
+color:#663622;
+text-align:left;
+font-weight:normal;
+padding:3px 10px;
+border-collapse:collapse;
+vertical-align:top;
+}
+
+
+#contentsBox table.t05 td{
+border:1px #fff solid;
+padding:10px;
+border-collapse:collapse;
+}
+
+/*t06*/
+#contentsBox table.t06{
+margin-bottom:10px;
+border-spacing:0;
+}
+
+#contentsBox .upbox table.t06{
+margin-bottom:0;
+}
+
+
+#contentsBox table.t06 th{
+padding:0 5px 5px 0;
+}
+
+#contentsBox table.t06 td{
+padding:0 5px 5px 0;
+}
+
+
+
+/*t07*/
+
+#contentsBox table.t07{
+border-collapse:collapse;
+margin-bottom:10px;
+border-spacing:0;
+}
+
+#contentsBox table.t07 th{
+border:1px #ccc solid;
+background:#776957;
+padding:5px;
+color:#fff;
+text-align:center;
+}
+
+#contentsBox table.t07 td.subtitle{
+border:1px #ccc solid;
+padding:5px;
+background:#FEF7ED;
+font-weight:bold;
+color:#666;
+text-align:left
+}
+
+
+
+#contentsBox table.t07 td{
+border:1px #ccc solid;
+padding:5px;
+text-align:center;
+}
+
+
+
+
+/*esttable*/
+#contentsBox .esttable{
+background:#F9F8F4;
+padding:10px;
+margin-bottom:15px;
+}
+
+#contentsBox .esttable table th{
+border-right:1px #CCC5AB solid;
+color:#776957;
+text-align:left;
+font-weight:normal;
+padding:4px 5px;
+vertical-align:top;
+}
+
+#contentsBox .esttable table td{
+padding:4px 10px;
+}
+
+
+
+
+/*total*/
+#contentsBox table.total{ margin-bottom:5px;}
+#contentsBox table.total td{vertical-align:top; text-align:right; padding:5px;}
+#contentsBox table.total td.price{color:#900; font-weight:bold; font-size:150%;}
+
+/*total02*/
+#contentsBox table.total02{ margin-bottom:10px;}
+#contentsBox table.total02 td{vertical-align:middle; text-align:right; padding-left:5px;}
+#contentsBox table.total02 td.price{color:#900; font-weight:bold;}
+#contentsBox table.total02 td.pricebasic{font-weight:bold;}
+#contentsBox table.total02 td.totaltit{color:#766958; font-weight:bold;}
+
+/*total03*/
+#contentsBox table.total03 td{vertical-align:middle; text-align:right; padding-left:5px;}
+#contentsBox table.total03 td.boldtxt{color:#766958; text-align:left; font-weight:bold;}
+#contentsBox table.total03 td.stxt{color:#766958; text-align:right;}
+#contentsBox table.total03 td.txt{color:#766958; text-align:left;}
+#contentsBox table.total03 td.price{color:#900; font-weight:bold;}
+#contentsBox table.total03 td.pricebasic{font-weight:bold;}
+#contentsBox table.total03 td.totaltit{color:#766958; font-weight:bold;}
+
+
+/*topmainimg*/
+#contentsBox .topmainimg{margin-bottom:10px;}
+
+/* INS 2016/03/16 バナーデザイン変更対応 ishida START */
+#contentsBox .topmainimgSlider{ position: relative; width: 735px; margin-bottom:10px;}
+#contentsBox .topmainimgSlider .shadow { padding-bottom: 11px; background: url(../image/slider_shadow.jpg) no-repeat center bottom;}
+#contentsBox .topmainimgSlider .bx-wrapper .bx-viewport { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: none; left: 0; }
+#contentsBox .topmainimgSlider .bx-wrapper .bx-controls-direction a { width: 42px; height: 42px; }
+#contentsBox .topmainimgSlider .bx-wrapper .bx-prev { background: url(../image/slider_nav_prev.png) no-repeat 0 0; }
+#contentsBox .topmainimgSlider .bx-wrapper .bx-prev:hover { background-position: 0 0;}
+#contentsBox .topmainimgSlider .bx-wrapper .bx-next { background: url(../image/slider_nav_next.png) no-repeat 0 0; }
+#contentsBox .topmainimgSlider .bx-wrapper .bx-next:hover { background-position: 0 0;}
+#contentsBox .topmainimgSlider .bx-wrapper .bx-loading { background-image: url(../image/slider_loader.gif);}
+*:first-child+html #contentsBox .topmainimgSlider .bxslider { width: 735px !important; }
+*:first-child+html #contentsBox .topmainimgSlider .bx-wrapper .bx-next { right: 20px; }
+/* INS 2016/03/16 バナーデザイン変更対応 ishida END */
+
+/*infoBox*/
+#contentsBox .infoBox{ background:#F9F8F4; width:735px; height:145px; overflow:auto;}
+#contentsBox .infowaku{width:700px; padding:5px 0 5px 15px;}
+#contentsBox .infoBox dl{width:700px; background:url(../image/line_dotted01.gif) left bottom repeat-x; padding:7px 0; color:#776957;}
+#contentsBox .infoBox dl dt{width:70px; font-weight:bold; float:left;}
+#contentsBox .infoBox dl dd{width:610px; float:right;}
+
+#contentsBox .infoBox dl:after {
+	content:".";
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0px;
+}
+#contentsBox .infoBox dl {
+	display:inline-table;
+	min-height:1%;
+}
+/* Hides from IE-mac \*/
+* html #contentsBox .infoBox dl { height:1%; }
+#contentsBox .infoBox dl { display:block; }
+/* End hide from IE-mac */
+
+
+
+/*item*/
+#contentsBox .itembanner{
+text-align:center;
+margin-bottom:10px;
+}
+
+#contentsBox .itembanner img{
+padding:0 5px;
+}
+
+
+#contentsBox .itemct{
+}
+
+#contentsBox .itemct ul li{
+float:left;
+width:147px;
+border-bottom:1px #CCC solid;
+padding:3px 0;
+}
+
+/*upbox*/
+#contentsBox .upbox{padding:10px; background:#F2F2F2; width:715px; margin-bottom:15px}
+#contentsBox .upbox li.left{text-align:left; float:left;}
+#contentsBox .upbox li.right{text-align:right; float:right;}
+
+/*decbox*/
+#contentsBox .decbox{padding:10px; background:#F9F8F4; width:715px; margin-bottom:15px}
+
+/*exbox*/
+#contentsBox .exbox{padding:10px; background:#F9F8F4; width:715px; margin-bottom:10px; font-weight:bold; color:#F00;}
+#contentsBox .exbox_l{padding:10px; background:#F9F8F4; width:715px; margin-bottom:10px; font-weight:bold; color:#F00; font-size:large;}
+
+
+/*itemlist*/
+#contentsBox .itemlistBox{ border:1px #ccc solid; margin-bottom:5px;}
+#contentsBox .itemlistBox .leftbox{width:435px; padding:10px; background:#F9F8F4; float:left;}
+#contentsBox .itemlistBox .rightbox{width:268px; padding:5px; float:right;}
+#contentsBox .itemlistBox table td{vertical-align:top; padding-top:5px; padding-bottom:5px;}
+#contentsBox .itemlistBox dl{width:435px;}
+#contentsBox .itemlistBox dt{float:left; margin-right:10px; width:90px;}
+#contentsBox .itemlistBox dd{float:left; width:335px;}
+
+#contentsBox .itemlistBox .name{ font-weight:bold; margin-bottom:5px;}
+/* UPD 2018/04/10 ミスミパンチアウト対応 ishida START */
+// #contentsBox .itemlistBox .cpname{margin-bottom:5px;}
+#contentsBox .itemlistBox .cpname{margin-bottom:5px;word-break:break-all;}
+/* UPD 2018/04/10 ミスミパンチアウト対応 ishida END */
+#contentsBox .itemlistBox .explain{margin-bottom:5px;font-size:87%;}
+#contentsBox .itemlistBox .ex{ color:#900; margin-bottom:5px;}
+
+#contentsBox .itemdetailBox{ margin-bottom:0px;}
+#contentsBox .itemdetailBox .cpname{ padding:3px 10px; font-weight:bold; color:#776957;}
+#contentsBox .itemdetailBox .leftbox{width:300px; margin-right:10px; float:left;}
+#contentsBox .itemdetailBox .rightbox{width:425px; float:right;}
+#contentsBox .itemdetailBox .ex{ color:#900; margin-bottom:5px;}
+
+/*categorylist*/
+#contentsBox .categorylistBox{ border:1px #ccc solid; margin-bottom:5px;}
+#contentsBox .categorylistBox .box{width:705px; padding:10px; background:#F9F8F4; float:left;}
+#contentsBox .categorylistBox table td{vertical-align:top; padding-top:5px; padding-bottom:5px;}
+#contentsBox .categorylistBox dl{width:705px;}
+#contentsBox .categorylistBox dt{float:left; margin-right:10px; width:90px;}
+#contentsBox .categorylistBox dd{float:left; width:605px;}
+
+#contentsBox .categorylistBox .name{ font-weight:bold; margin-bottom:5px;}
+#contentsBox .categorylistBox .cpname{margin-bottom:5px;}
+#contentsBox .categorylistBox .ex{ color:#900; margin-bottom:5px;}
+
+
+/*step*/
+#contentsBox .stepbox{padding:10px; background:#F9F8F4; width:715px; margin-bottom:15px}
+#contentsBox .stepbox table td{text-align:center; vertical-align:middle;}
+#contentsBox .stepbox table td.stepnow{padding:6px; background:#F39700; width:136px; border:1px #F39700 solid; color:#fff; font-weight:bold; font-size:120%;}
+#contentsBox .stepbox table td.step{padding:6px; background:#fff; width:136px; border:1px #F39700 solid; color:#F39700; font-weight:bold; font-size:120%;}
+#contentsBox .stepbox table td.arrow{width:30px;}
+
+
+
+
+/*devstep*/
+#contentsBox dl.devstep{
+margin-left:10px;
+margin-bottom:10px;
+}
+
+#contentsBox dl.devstep dt{
+background:#F39700;
+color:#FFFFFF;
+font-size:110%;
+padding:3px 6px;
+margin-right:10px;
+font-weight:bold;
+font-family:verdana, sans-serif;
+width:70px;
+text-align:center;
+}
+
+#contentsBox dl.devstep dd{
+padding:3px 6px 3px 100px;
+margin-top:-20px;
+background: url(../image/arrow06.gif) 35px 60% no-repeat;
+}
+
+#contentsBox dl.devstep dd.lastChild{
+padding:3px 6px 3px 100px;
+margin-top:-20px;
+background:none;
+}
+
+#contentsBox dl.devstep dd .title{
+font-size:120%;
+font-weight:bold;
+margin-bottom:10px;
+color:#9E3E0E;
+}
+
+#contentsBox ul.dotlist li{
+list-style:disc;
+padding-left:2px;
+margin-bottom:5px;
+margin-left:25px;
+}
+
+
+
+/*flow*/
+#contentsBox dl.flow{
+margin-left:10px;
+width:710px;
+}
+
+#contentsBox dl.flow dt{
+background:#F39700;
+color:#FFFFFF;
+font-size:110%;
+padding:3px 6px;
+float:left;
+margin-right:10px;
+font-weight:bold;
+font-family:verdana, sans-serif;
+}
+
+#contentsBox dl.flow dd{
+padding:3px 6px;
+float:left;
+width:640px;
+}
+
+#contentsBox dl.flow dd .title{
+font-size:120%;
+font-weight:bold;
+margin-bottom:10px;
+color:#9E3E0E;
+}
+
+
+/*faq*/
+
+#contentsBox dl.question{
+margin-left:10px;
+margin-bottom:10px;
+width:710px;
+}
+
+#contentsBox dl.question dt{
+background:#5293DA;
+color:#FFFFFF;
+font-size:110%;
+padding:3px 6px;
+float:left;
+margin-right:10px;
+font-weight:bold;
+font-family:verdana, sans-serif;
+}
+
+#contentsBox dl.question dd{
+font-size:120%;
+font-weight:bold;
+padding:3px 6px;
+float:left;
+width:640px;
+}
+
+
+#contentsBox dl.answer{
+margin-left:20px;
+margin-bottom:10px;
+width:710px;
+}
+
+#contentsBox dl.answer dt{
+background:#EE5731;
+color:#FFFFFF;
+font-size:110%;
+padding:3px 6px;
+float:left;
+margin-right:10px;
+font-weight:bold;
+font-family:verdana, sans-serif;
+}
+
+#contentsBox dl.answer dd{
+padding:3px 6px;
+float:left;
+width:640px;
+}
+
+
+/*mainContents favoriteBox*/
+#mainContents .favoriteBox { margin-bottom:10px;}
+#mainContents .favoriteBox .title { border-top:1px #ccc solid;
+background:#776957;
+padding:5px;
+color:#fff;
+font-weight:bold;
+}
+#mainContents .folderBox{border:1px #ccc solid; padding:5px 5px 5px 5px;}
+
+#mainContents .folderBox ul.folder li { clear:both;}
+#mainContents .folderBox ul.folder li dl{padding:3px 4px; border-bottom:1px #C9C1A4 dotted;}
+#mainContents .folderBox ul.folder li dl:after {
+	content:".";
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0px;
+}
+#mainContents .folderBox ul.folder li dl {
+	display:inline-table;
+	min-height:1%;
+}
+/* Hides from IE-mac \*/
+* html #mainContents .folderBox ul.folder li dl { height:1%; }
+#mainContents .folderBox ul.folder li dl { display:block; }
+/* End hide from IE-mac */
+
+#mainContents .folderBox ul.folder li dt{float:left;}
+#mainContents .folderBox ul.folder li dd{float:left; padding-top:3px;}
+
+#mainContents .folderBox ul.folder li.category dl{ background:#FFF2E6; border:none;}
+#mainContents .folderBox ul.folder li.category dt{ padding:0 10px 0 0; width:15px; line-height:0px;}
+#mainContents .folderBox ul.folder li.category dd{ width:650px;}
+
+#mainContents .folderBox ul.folder li.class01 dt{ padding:0 10px 0 0; width:15px; line-height:0px;}
+#mainContents .folderBox ul.folder li.class01 dd{ width:650px; padding-top:3px;}
+
+#mainContents .folderBox ul.folder li.class02 dt{ padding:0 25px 0 0; width:15px; line-height:0px;}
+#mainContents .folderBox ul.folder li.class02 dd{ width:640px;}
+
+#mainContents .folderBox ul.folder li.class03 dt{ padding:0 40px 0 0; width:15px; line-height:0px;}
+#mainContents .folderBox ul.folder li.class03 dd{ width:630px;}
+
+#mainContents .folderBox ul.folder li.class04 dt{ padding:0 55px 0 0; width:15px; line-height:0px;}
+#mainContents .folderBox ul.folder li.class04 dd{ width:620px;}
+
+#mainContents .folderBox ul.folder li dl.lastChild{ padding:3px 4px 0 4px; border-bottom:none;}
+
+#mainContents .folderBox ul.folder li dd .fol{ background:url(../image/icon_folder.gif) 0 center no-repeat; padding-left:25px;}
+#mainContents .folderBox ul.folder li dd .line01{ background:url(../image/icon_line01.gif) 0 center no-repeat; padding-left:20px;}
+#mainContents .folderBox ul.folder li dd .line02{ background:url(../image/icon_line02.gif) 0 center no-repeat; padding-left:20px;}
+
+#mainContents .folderBox .btnpad{ padding:10px;}
+#mainContents .folderBox ul.editbtn li{ float:left; margin-right:10px;}
+
+
+
+/* tabs
+=========================================*/
+
+#selecttabs{
+position:relative;
+z-index:1000;
+}
+
+#selecttabs ul{
+border-left:1px #B19F8F solid;
+}
+
+#selecttabs ul li{
+border-top:1px #B19F8F solid;
+border-right:1px #B19F8F solid;
+float:left;
+}
+
+#selecttabs ul li a{
+display:block;
+padding:8px 0;
+color:#9E3E0E;
+width:128px;
+text-align:center;
+font-weight:bold;
+background:#F2F2F2 url(../image/bg_tabsbase01.gif) repeat-x;
+border-bottom:3px #B19F8F solid;
+}
+
+#selecttabs ul li.error a{
+background:none;
+background-color:#FFB9DC;
+}
+
+#selecttabs ul li a:link,
+#selecttabs ul li a:visited {color:#9E3E0E;text-decoration:underline;}
+#selecttabs ul li a:hover,
+#selecttabs ul li a:active {color:#E85C00;text-decoration:underline;}
+
+#selecttabs ul li.error a:link,
+#selecttabs ul li.error a:visited {color:#FF0000;text-decoration:underline;}
+
+
+#selecttabs ul li a.sel{
+background:#FFF url(../image/bg_tabsbase02.gif) repeat-x;
+border-bottom:3px #FFF solid;
+z-index:1000;
+}
+
+#selecttabs ul li.error a.sel{
+background:none;
+background-color:#FFB9DC;
+border-bottom:3px #FFB9DC solid;
+}
+
+#selecttabs ul li a.sel:link,
+#selecttabs ul li a.sel:visited,
+#selecttabs ul li a.sel:hover,
+#selecttabs ul li a.sel:active {color:#9E3E0E; text-decoration:none;}
+
+#selecttabs ul li.error a.sel:link,
+#selecttabs ul li.error a.sel:visited,
+#selecttabs ul li.error a.sel:hover,
+#selecttabs ul li.error a.sel:active {color:#FF0000; text-decoration:none;}
+
+.selectBox{
+position:relative;
+top:-3px;
+z-index:100;
+background:url(../image/bg_tabline.gif) repeat-x;
+border-left:1px #B19F8F solid;
+border-right:1px #B19F8F solid;
+border-bottom:1px #B19F8F solid;
+padding:10px 5px 0 5px;
+}
+
+.selectBox #est02,
+.selectBox #est03,
+.selectBox #est04,
+.selectBox #est05{ display:none;}
+
+.estconfBox{
+border:1px #B19F8F solid;
+overflow:auto;
+width:733px;
+height:400px;
+}
+
+.estconfBox .frameBox{
+padding:5px;
+width:700px;
+}
+
+
+/* etc
+=========================================*/
+
+.mid {vertical-align:middle;}
+
+#header a:hover img.over{
+filter:alpha(opacity=75); /*IE*/
+-moz-opacity:0.75; /*FF*/
+opacity:0.75;
+}
+
+#contents a:hover img.over{
+filter:alpha(opacity=75); /*IE*/
+-moz-opacity:0.75; /*FF*/
+opacity:0.75;
+}
+
+
+/* clear clearfix
+=========================================*/
+
+.clear {
+	clear:both;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0px;
+}
+.clearfix {
+	display:inline-table;
+	min-height:1%;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { height:1%; }
+.clearfix { display:block; }
+/* End hide from IE-mac */
